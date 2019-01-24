@@ -1,0 +1,22 @@
+/release/
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+*.iml
+out
+gen
+.idea
+target
+overlays
+release
+
