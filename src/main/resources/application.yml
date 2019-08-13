@@ -1,12 +1,11 @@
 spring:
   auto.openurl: true
   web.loginurl: http://localhost:8080
-  web.googleexcute: C:\\Users\\YSTen\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe
   datasource:
-      url: jdbc:mysql://47.111.28.188:3306/test
+      url: jdbc:mysql://192.168.50.101/test
       type: com.alibaba.druid.pool.DruidDataSource
-      username: springboot
-      password: springboot
+      username: root
+      password: ysten123
       driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
